@@ -4,7 +4,7 @@ import Card from './Card';
 
 function Button(props){
   return(
-    <h5>this is a web component {props.text.text}</h5>
+    <h5>this is a web  {props.text.text}</h5>
   );
 }
 
