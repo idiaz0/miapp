@@ -15,7 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <br />
         <Card />
-        <label>negrito toti</label>
+        <label>negrito toti gordo</label>
         <a
           className="App-link"
           href="https://reactjs.org"
