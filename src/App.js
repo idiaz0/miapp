@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
-function Button(){
+function Button(props){
   return(
-    <h5>testing application h5</h5>
+    <h5>testing application h5 {props.text}</h5>
   );
 }
 
@@ -21,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Button />
+          <Button text={{text: "valuestest"}}/>
         </a>
       </header>
     </div>
