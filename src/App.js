@@ -15,7 +15,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <br />
         <Card />
-      
+        <label>ivan diaz</label>
         <a
           className="App-link"
           href="https://reactjs.org"
