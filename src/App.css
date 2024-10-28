@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+  .CardDiv {
+    background-color: #447b59;
+    min-height: 60vh;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(131, 249, 255);
+  }
+
+  .image{
+    height: 150px;
+    border: 5px solid rgb(172, 158, 30);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 25px;
+  }
