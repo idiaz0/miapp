@@ -3,7 +3,7 @@ import './App.css';
 
 function Button(props){
   return(
-    <h5>testing application h5 {props.text}</h5>
+    <h5>this is a web component {props.text.text}</h5>
   );
 }
 
