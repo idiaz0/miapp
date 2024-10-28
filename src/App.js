@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+function Button(){
+  return(
+    <h5>testing application h5</h5>
+  );
+}
+
 function App() {
   return (
     <div className="App">
@@ -15,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Button />
         </a>
       </header>
     </div>
