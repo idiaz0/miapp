@@ -6,7 +6,7 @@ function Card(){
         <div className="CardDiv">
             <h4>Title</h4>
             <label>New movie</label>
-            <img className="image" src={userImage} />
+            <img className="image" alt='test' src={userImage} />
         </div>
     );
 }
